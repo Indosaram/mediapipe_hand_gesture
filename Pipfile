@@ -4,8 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+opencv-python = "*"
+mediapipe = "0.8.9.1"
 
 [dev-packages]
+black = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
